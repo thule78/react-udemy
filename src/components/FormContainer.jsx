@@ -9,7 +9,9 @@ class Form extends Component {
     this.state={
       firstName: "",
       lastName: "",
-      age: ""
+      age: "",
+      gender: "",
+      location: ""
     }
 
     this.handleChange = this.handleChange.bind(this)
