@@ -4,6 +4,7 @@ import PlusOne from './PlusOne'
 import Conditional from './Conditional'
 import Mapping from './Mapping'
 import FetchingApi from './FetchingApi'
+import Form from './FormContainer'
 
 function App () {
   return (
@@ -20,6 +21,8 @@ function App () {
       <h2>Fetching API</h2>
       <FetchingApi />
       <hr />
+      <h2>Form</h2>
+      <Form />
     </div>
   )
 }

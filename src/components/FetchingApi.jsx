@@ -11,7 +11,7 @@ class FetchingApi extends Component {
 
   ComponentDidMount(){
     this.setState({loading: true})
-    fetch("https://swapi.co/api/people/1")
+    fetch("https://swapi.co//api/people/?page=2")
       .then(response => response.json())
       .then(data => {
         this.setState({
