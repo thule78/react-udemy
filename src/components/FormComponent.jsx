@@ -56,6 +56,28 @@ function FromComponent (props){
           <option value="Hokaido">Hokaido</option>
 
         </select>
+        <br />
+        <br />
+        <input
+          type="checkbox"
+          name="vegan"
+          value={props.data.vegan}
+          onChange={props.handleChange}
+        />Vegan
+        <br />
+        <input
+          type="checkbox"
+          name="kosher"
+          value={props.data.kosher}
+          onChange={props.handleChange}
+        />Kosher
+        <br />
+        <input
+          type="checkbox"
+          name="lactafree"
+          value={props.data.lactafree}
+          onChange={props.handleChange}
+        />Lacta Free
 
       </from>
       <br />
@@ -64,6 +86,7 @@ function FromComponent (props){
       <p>Age: {props.data.age}</p>
       <p>Gender: {props.data.gender}</p>
       <p>Location: {props.data.location}</p>
+      <p>Dietype: {props.data.vegan ? "Vegan" : ""} {props.data.kosher ? ", Kosher" : ""} {props.data.lactafree ? ", Lacta Free" : ""}</p>
     </main>
 
     )
