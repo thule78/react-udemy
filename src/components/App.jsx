@@ -2,6 +2,7 @@ import React  from 'react'
 
 import PlusOne from './PlusOne'
 import Conditional from './Conditional'
+import Mapping from './Mapping'
 
 function App () {
   return (
@@ -11,6 +12,9 @@ function App () {
       <hr />
       <h2>Conditinonal</h2>
       <Conditional />
+      <hr />
+      <h2>Mapping</h2>
+      <Mapping />
       <hr />
     </div>
   )
