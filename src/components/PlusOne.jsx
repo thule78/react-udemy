@@ -30,6 +30,7 @@ class PlusOne extends Component {
   render() {
     return(
         <div>
+          <h3>Add 1 for each click</h3>
           <h1> {this.state.count}</h1>
           <button onClick={this.handleAddOne}>Add 1</button> <br />
           <button onClick={this.handleReset}>Reset</button>

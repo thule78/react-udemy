@@ -7,11 +7,14 @@ import Mapping from './Mapping'
 import FetchingApi from './FetchingApi'
 import Form from './FormContainer'
 import Home from './Home'
+import Nav from './Nav'
 
 function App () {
   return (
     <div>
+
     <Router>
+      <Nav />
       <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/plusone" component={PlusOne}  />
