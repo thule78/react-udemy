@@ -13,7 +13,7 @@ function App () {
     <div>
     <Router>
       <Switch>
-      <Route path="/" component={Home} />
+      <Route exact path="/" component={Home} />
       <Route path="/plusone" component={PlusOne}  />
 
       <Route path="/conditional" component={Conditional} />

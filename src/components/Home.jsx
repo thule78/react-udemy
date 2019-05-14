@@ -6,7 +6,7 @@ function Home (){
     <div>
       <h3>My Works</h3>
       <ul>
-        <li><Link to="PlusOne">Plus One</Link></li>
+        <li><Link to="/plusone">Plus One</Link></li>
       </ul>
     </div>
     )
