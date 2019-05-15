@@ -3,7 +3,8 @@ import React from 'react'
 function FromComponent (props){
   return(
     <main>
-      <from>
+      <h2>Fill the form and see data below</h2>
+      <form>
         <input
         type="text"
         onChange={props.handleChange}
@@ -79,7 +80,7 @@ function FromComponent (props){
           onChange={props.handleChange}
         />Lacta Free
 
-      </from>
+      </form>
       <br />
       <hr />
       <p>Full Name: {props.data.firstName} {props.data.lastName}</p>

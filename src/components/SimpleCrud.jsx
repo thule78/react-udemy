@@ -70,7 +70,7 @@ class SimpleCrud extends Component {
     let datas = this.state.datas;
     return(
       <div>
-        <h2>Simple CRUD</h2>
+        <h2>Fill the form, click submit and see.</h2>
         <form ref="myForm">
           <input type="text" placeholder="Your Name" ref="name"/>
           <input type="text" placeholder="address" ref="address" />

@@ -24,6 +24,7 @@ class FetchingApi extends Component {
   render() {
     return (
       <div>
+        <h3>It doesn't work, have no idea ???</h3>
         <h4>{this.state.loading ? "loading...": this.state.character.height}</h4>
       </div>
 
