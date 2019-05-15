@@ -8,6 +8,7 @@ import FetchingApi from './FetchingApi'
 import Form from './FormContainer'
 import Home from './Home'
 import Nav from './Nav'
+import SimpleCrud from './SimpleCrud'
 
 function App () {
   return (
@@ -26,6 +27,7 @@ function App () {
       <Route path="/fetching" component={FetchingApi} />
 
       <Route path="/form" component={Form} />
+      <Route path="/simplecrud" component={SimpleCrud} />
       </Switch>
     </Router>
     </div>

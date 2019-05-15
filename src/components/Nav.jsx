@@ -10,6 +10,7 @@ function Nav (){
         <li><Link to="/mapping">Mapping</Link></li>
         <li><Link to="/fetching">Fetching from API</Link></li>
         <li><Link to="/form">Form</Link></li>
+        <li><Link to="/simplecrud"> Simple CRUD</Link></li>
       </ul>
     </div>
 
