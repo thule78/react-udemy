@@ -76,7 +76,8 @@ class SimpleCrud extends Component {
           <input type="text" placeholder="address" ref="address" />
           <button onClick={(e)=>this.Submit(e)}>Submit</button>
         </form>
-        <pre>
+        <br />
+        <div>
           {datas.map((data, i) =>
             <li key={i}>
               {i+1}.{data.name}, {data.address}
@@ -85,7 +86,7 @@ class SimpleCrud extends Component {
             </li>
 
             )}
-        </pre>
+        </div>
 
       </div>
       )
