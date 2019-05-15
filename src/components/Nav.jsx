@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 function Nav (){
   return (
-    <div>
+    <div >
       <ul>
         <li><Link to="/plusone">Plus One</Link></li>
         <li><Link to="/conditional">Conditional</Link></li>
